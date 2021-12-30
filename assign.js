@@ -9,14 +9,20 @@ let lastName = "Odetola";
 let boss = "Kehinde Odetola";
 //5.Show the value of boss using alert .  2
 alert(boss);
+
 //6.Create a variable with the name of our planet. How would you name such a variable?  2
 let earth = {
   numberOfContinets: 9,
   mostPopulatedContinent: "Asia",
+  underdevelopedContinent: "Africa",
+  remarks: "It is believed that the Whites are superior to Blacks",
+  whatGivesLightInTheDay: "Sun",
+  whatGivesLightAtNight: "Moon and Stars",
+  habitants: "Living and None living things",
 };
 
 //7.Create a variable to store the name of a current visitor to a website. How would you name that variable? 2
-
+let nameOfCurrentVisitor = "Moel";
 //8.create an array arr of 20 items in it 3
 let statesInNigeria = [
   "Abia",
@@ -52,7 +58,7 @@ let dog = {
   breed: "Siberian Husky",
   howOld: "8 months",
   hobby: "Barks",
-  height: "2.5 feet",
+  height: "1.8 feet",
 };
 //11.create an array of objects of 8  different animals and output 1 of each animal's properties 5
 let collectionOfAnimals = [
@@ -103,6 +109,15 @@ console.log(collectionOfAnimals[6].interestingFact);
 console.log(collectionOfAnimals[7].weight);
 
 //12 Create a variable for ptpAmount and write a conditional statement using if and else for different cases of the PTP Amount; Have an output for any possible amount. (be creative here for the possible scenarios of PTP). 5
-
+let ptp = 5000;
+if (ptp === 5000) {
+  console.log("You can now submit the amount you want to pay");
+} else if (ptp === 4000) {
+  console.log(
+    "You can submit your repayment, but you still have a balance of 1000"
+  );
+} else if (ptp === 1000) {
+  console.log("You can not pay below 1500");
+}
 //13. Bonus question.. At Bfree Mentorship Programme Which team stands out as the best ? and why? 1
 const Team = "frontend";
